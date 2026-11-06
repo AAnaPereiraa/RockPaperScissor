@@ -1,4 +1,5 @@
 
+
 def Paper():
 
     return('''
@@ -31,7 +32,7 @@ def Rock():
 
 
 
-
+figures = (Rock(), Paper(), Scissor())
 
 
 

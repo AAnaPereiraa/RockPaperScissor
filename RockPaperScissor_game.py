@@ -29,8 +29,8 @@ while game_on:
 
                     game = (choice, computer)
 
-                    print(f"\n{username.capitalize()}\n", figures.figure[choice])
-                    print("\nComputer\n", figures.figure[computer])
+                    print(f"\n{username.capitalize()}\n", figures.figures[choice])
+                    print("\nComputer\n", figures.figures[computer])
 
                     if game in draw:
                         print("\n\nIt's a draw!!!\n")
